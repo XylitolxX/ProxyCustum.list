@@ -1,0 +1,31 @@
+# NAME: Tesla
+# DESC: Tesla 官方网站、手机端远程控制、Fleet API、认证及中国/全球数据网关
+# UPDATED: 2026-11
+
+# > 官方主站与全球主域名
+DOMAIN-SUFFIX,tesla.com
+DOMAIN-SUFFIX,teslamotors.com
+DOMAIN-SUFFIX,teslaservices.net
+DOMAIN-SUFFIX,tesla.cn
+DOMAIN-SUFFIX,teslamotors.cn
+
+# > 车主移动端 App 与远程车控网关 (Fleet API / 车辆状态唤醒)
+DOMAIN-SUFFIX,fleet-api.prd.na.vn.cloud.tesla.com
+DOMAIN-SUFFIX,fleet-api.prd.eu.vn.cloud.tesla.com
+DOMAIN-SUFFIX,fleet-api.prd.cn.vn.cloud.tesla.cn
+DOMAIN-SUFFIX,ownerapi.teslamotors.com
+DOMAIN-SUFFIX,auth.tesla.com
+DOMAIN-SUFFIX,auth.tesla.cn
+
+# > 静态资源、多媒体及交付 CDN
+DOMAIN-SUFFIX,tesla-cdn.thron.com
+DOMAIN-SUFFIX,digitalassets.tesla.com
+DOMAIN-SUFFIX,digitalassets-secure.tesla.com
+
+# > 关键字匹配兜底
+DOMAIN-KEYWORD,tesla
+DOMAIN-KEYWORD,teslamotors
+
+# > 客户端 User-Agent 匹配（适用于 Surge / Shadowrocket）
+USER-AGENT,Tesla*
+USER-AGENT,TeslaMotors*
