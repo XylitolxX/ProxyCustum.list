@@ -1,0 +1,36 @@
+# NAME: Twitter
+# DESC: X (Twitter) 网页端、移动端 API、图床静态资源及视频流媒体分流规则
+# UPDATED: 2026-11
+
+# > 核心主站与全新 X 体系域名
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,tweetdeck.com
+
+# > 官方静态资源、图片与视频流媒体 CDN
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twvid.com
+DOMAIN-SUFFIX,video.twimg.com
+DOMAIN-SUFFIX,ton.twitter.com
+
+# > 官方短链与跳转服务
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,x.ai
+
+# > 广告、统计追踪与开发者服务（确保客户端功能完整）
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,mopub.com
+DOMAIN-SUFFIX,twttr.net
+DOMAIN-SUFFIX,twtrdns.net
+DOMAIN-SUFFIX,p.twimg.com
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
+
+# > 关键字匹配兜底
+DOMAIN-KEYWORD,twitter
+
+# > 客户端 User-Agent（适用于 Surge / Shadowrocket）
+USER-AGENT,Twitter*
+USER-AGENT,Tweetie*
