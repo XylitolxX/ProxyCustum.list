@@ -1,0 +1,16 @@
+# NAME: Grok
+# DESC: xAI Grok 网页端、开发者 API、模型推理及静态资产分流规则
+# UPDATED: 2026-11
+
+# > Grok 独立主站与交互入口
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,g.ai
+
+# > xAI 官方主站、开发者平台与 API
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,api.x.ai
+DOMAIN-SUFFIX,console.x.ai
+DOMAIN-SUFFIX,docs.x.ai
+
+# > 关键字匹配兜底
+DOMAIN-KEYWORD,grok
