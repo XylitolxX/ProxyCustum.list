@@ -1,0 +1,26 @@
+# NAME: Amap
+# DESC: 高德地图 (AutoNavi) 导航算路、实时路况、瓦片地图渲染、A-GPS定位及车机端直连规则
+# UPDATED: 2026-11
+
+# > 高德主站及移动 API 网关 (路径规划、实时路况、语音包)
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,amapauto.com
+DOMAIN-SUFFIX,autonavi.com
+
+# > 瓦片地图渲染、离线数据下载及 CDN 加速
+DOMAIN-SUFFIX,is.autonavi.com
+DOMAIN-SUFFIX,webst01.is.autonavi.com
+DOMAIN-SUFFIX,webrd01.is.autonavi.com
+DOMAIN-SUFFIX,gaode.com
+
+# > 基站/WiFi 辅助定位与反作弊服务
+DOMAIN-SUFFIX,apilocate.amap.com
+DOMAIN-SUFFIX,lbs.amap.com
+
+# > 关键字匹配兜底
+DOMAIN-KEYWORD,amap
+DOMAIN-KEYWORD,autonavi
+
+# > 客户端 User-Agent 匹配（适用于 Surge / Shadowrocket）
+USER-AGENT,AMap*
+USER-AGENT,AutoNavi*
