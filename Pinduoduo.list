@@ -1,0 +1,25 @@
+# NAME: Pinduoduo
+# DESC: 拼多多电商主站、小程序底层 (阳客多)、图片CDN及短链接分流规则
+# UPDATED: 2026-11
+
+# > 拼多多官方核心域名及服务
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,pinduoduo.net
+DOMAIN-SUFFIX,pdd.net
+
+# > 拼多多小程序与核心交易网关 (阳客多)
+DOMAIN-SUFFIX,yangkeduo.com
+
+# > 商品大图、静态资源与多媒体 CDN
+DOMAIN-SUFFIX,pddpic.com
+
+# > 官方短链与分享跳转
+DOMAIN-SUFFIX,pdd.cn
+
+# > 关键字匹配兜底
+DOMAIN-KEYWORD,pinduoduo
+DOMAIN-KEYWORD,yangkeduo
+
+# > 客户端 User-Agent 匹配（适用于 Surge / Shadowrocket）
+USER-AGENT,PDD*
+USER-AGENT,Pinduoduo*
