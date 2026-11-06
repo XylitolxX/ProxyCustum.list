@@ -1,0 +1,22 @@
+# NAME: MetaAI
+# DESC: Meta AI (Web端、移动端、Ray-Ban 眼镜端及 Llama 生态) 分流规则
+# UPDATED: 2026-11
+
+# > Meta AI 核心主站与交互入口
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,imagine.meta.com
+
+# > Llama 模型主站、开发者平台与资源库
+DOMAIN-SUFFIX,llama.com
+DOMAIN-SUFFIX,llama.meta.com
+DOMAIN-SUFFIX,ai.meta.com
+
+# > Meta 基础架构、API 与多模态资源分发 (AI 推理及图文生成依赖)
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,graph.facebook.com
+
+# > 关键字匹配兜底
+DOMAIN-KEYWORD,meta.ai
