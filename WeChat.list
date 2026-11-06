@@ -1,0 +1,40 @@
+# NAME: WeChat
+# DESC: 微信即时通讯、语音通话、小程序、微信支付及腾讯云CDN直连规则
+# UPDATED: 2026-11
+
+# > 微信官方核心主站及域名
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,wechatpay.com
+DOMAIN-SUFFIX,wepay.com
+
+# > 微信文件传输、短链接与官方服务
+DOMAIN-SUFFIX,weiyun.com
+DOMAIN-SUFFIX,url.cn
+DOMAIN-SUFFIX,weixinbridge.com
+DOMAIN-SUFFIX,wx.qq.com
+DOMAIN-SUFFIX,servicewechat.com
+
+# > 静态资源、图片、朋友圈视频 CDN
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,wechatlegal.net
+DOMAIN-SUFFIX,wetvinfo.com
+
+# > 腾讯长连接调度与移动加速底层（消息收发、VoIP 核心）
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tencentmusic.com
+DOMAIN-SUFFIX,tencent-cloud.com
+DOMAIN-SUFFIX,tencent-cloud.net
+
+# > 关键字匹配兜底
+DOMAIN-KEYWORD,weixin
+DOMAIN-KEYWORD,wechat
+
+# > 移动端 User-Agent 匹配（Surge / Shadowrocket）
+USER-AGENT,MicroMessenger*
+USER-AGENT,WeChat*
+USER-AGENT,WeChat*App*
