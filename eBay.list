@@ -1,0 +1,37 @@
+# NAME: eBay
+# DESC: eBay 国际主站、多国站点、移动端 API、图片 CDN 及结算分流规则
+# UPDATED: 2026-11
+
+# > 官方主站及核心国际站点
+DOMAIN-SUFFIX,ebay.com
+DOMAIN-SUFFIX,ebay.co.uk
+DOMAIN-SUFFIX,ebay.de
+DOMAIN-SUFFIX,ebay.com.au
+DOMAIN-SUFFIX,ebay.ca
+DOMAIN-SUFFIX,ebay.fr
+DOMAIN-SUFFIX,ebay.it
+DOMAIN-SUFFIX,ebay.es
+DOMAIN-SUFFIX,ebay.com.hk
+DOMAIN-SUFFIX,ebay.co.jp
+
+# > 官方短链与跳转服务
+DOMAIN-SUFFIX,ebay.to
+DOMAIN-SUFFIX,ebay.us
+
+# > 静态资源、商品大图与多媒体 CDN
+DOMAIN-SUFFIX,ebayimg.com
+DOMAIN-SUFFIX,ebaystatic.com
+DOMAIN-SUFFIX,ebayrtm.com
+
+# > 移动端 API、分类信息与旗下生态（Kijiji / Gumtree）
+DOMAIN-SUFFIX,ebaymain.com
+DOMAIN-SUFFIX,ebay-us.com
+DOMAIN-SUFFIX,ebayclassifiedsgroup.com
+DOMAIN-SUFFIX,kijiji.ca
+DOMAIN-SUFFIX,gumtree.com
+
+# > 关键字匹配兜底
+DOMAIN-KEYWORD,ebay
+
+# > 客户端 User-Agent（适用于 Surge / Shadowrocket）
+USER-AGENT,eBay*
