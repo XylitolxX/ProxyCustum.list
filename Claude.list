@@ -1,0 +1,29 @@
+# NAME: Claude
+# DESC: Anthropic Claude 网页端、移动端 App、API及风控校验分流规则
+# UPDATED: 2026-11
+
+# > Claude 核心主站与交互界面
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.site
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,anthropic.com
+
+# > 官方静态资源、图片与多媒体 CDN
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# > 开发者平台、控制台与 API 接口
+DOMAIN-SUFFIX,api.anthropic.com
+DOMAIN-SUFFIX,console.anthropic.com
+
+# > 运行时特征校验、A/B测试与风控服务（缺失可能导致登录卡死或被拒）
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+
+# > 关键字匹配兜底
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+
+# > 客户端 User-Agent（适用于 Surge / Shadowrocket）
+USER-AGENT,Claude*
+USER-AGENT,Anthropic*
