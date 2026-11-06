@@ -1,0 +1,27 @@
+# NAME: Gemini
+# DESC: Google Gemini (Bard) Web端、移动端、API及模型资源分流规则
+# UPDATED: 2026-11
+
+# > Gemini 专属主域名与 Web 端入口
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+
+# > 模型底层接口与开发网关 (Generative Language API)
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,alkalimakersuite-pa.googleapis.com
+DOMAIN-SUFFIX,makersuite.google.com
+
+# > 依赖的 Google AI 实验室与技术展示平台
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,ai.google.dev
+
+# > 多模态资源、代码沙盒及静态资产
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,apis.google.com
+
+# > 关键字匹配兜底
+DOMAIN-KEYWORD,gemini.google
+DOMAIN-KEYWORD,generativelanguage
