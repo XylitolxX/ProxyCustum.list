@@ -1,9 +1,11 @@
+
 # NAME: Gemini
-# DESC: Google Gemini (Bard) Web端、移动端、API及模型资源分流规则
+# DESC: Google Gemini (Bard) Web端、移动端、API及Google AI生态分流规则
 # UPDATED: 2026-11
 
 # > Gemini 专属主域名与 Web 端入口
 DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
@@ -13,14 +15,61 @@ DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,alkalimakersuite-pa.googleapis.com
 DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,aicode.googleapis.com
+DOMAIN-SUFFIX,aida.googleapis.com
+DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+
+# > Gemini 底层客户端与内部服务接口
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,appsgenaiserver-pa.clients.google.com
+DOMAIN,appsgenaiserver-pa.clients6.google.com
+DOMAIN,appsgenaiserver-pa.googleapis.com
+DOMAIN,geminiweb-pa.clients.google.com
+DOMAIN,geminiweb-pa.clients6.google.com
+DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+
+# > Google Cloud Code 与 AI 开发服务
+DOMAIN,cloudaicompanion.googleapis.com
+DOMAIN,cloudcode-pa.googleapis.com
+DOMAIN,daily-cloudcode-pa.googleapis.com
 
 # > 依赖的 Google AI 实验室与技术展示平台
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,ai.studio
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,flow.google
+DOMAIN-SUFFIX,flow.google.com
+DOMAIN-SUFFIX,labs.google
+DOMAIN-SUFFIX,labs.google.com
+DOMAIN-SUFFIX,labstailwind.pa.googleapis.com
+DOMAIN-SUFFIX,stitch.withgoogle.com
+
+# > Google AI 独立产品与工作流平台
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,notebook.google
+DOMAIN-SUFFIX,notebook.google.com
+DOMAIN,notebooklm-pa.googleapis.com
+DOMAIN,notebooklm.googleapis.com
+DOMAIN-SUFFIX,jules.google
+DOMAIN-SUFFIX,jules.google.com
+DOMAIN-SUFFIX,opal.google
+DOMAIN-SUFFIX,opal.google.com
+
+# > Google Antigravity AI 开发平台
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity.google.com
+DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN,antigravity-pa.googleapis.com
+DOMAIN,antigravity.googleapis.com
 
 # > 多模态资源、代码沙盒及静态资产
-DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,gemini.gstatic.com
 DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
 
 # > 关键字匹配兜底
 DOMAIN-KEYWORD,gemini.google
